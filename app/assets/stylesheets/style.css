@@ -1,5 +1,6 @@
 body{
 	font-family: 'VT323';
+	text-align: center;
 }
 
 #pixel {
@@ -8,7 +9,7 @@ body{
 	background-color: black;
 	position: absolute;
 	top: 300px;
-	left: 500px;
+	left: 650px;
 	width: 100px;
 	height: 100px;
 }
@@ -29,4 +30,39 @@ nav {
 #logo img{
 	width: 45px;
 	
+}
+
+#sidebar {
+	width: 20%;
+	margin-left: 0;
+	float: left;
+	margin-top: 10px;
+}
+
+#feed {
+	border: solid black 1px;
+	margin-bottom: 5px;
+}
+
+#play {
+	border: solid black 1px;
+	margin-bottom: 5px;
+
+}
+
+#hunger {
+	border: solid black 1px;
+	margin-bottom: 5px;
+
+}
+
+#mood {
+	border: solid black 1px;
+	margin-bottom: 5px;
+
+}
+
+#container {
+	float: right;
+	width: 80%;
 }
